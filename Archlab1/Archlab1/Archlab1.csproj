@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Archlab1.Task1\Archlab1.Task1.csproj" />
+      <ProjectReference Include="..\Archlab1.Task2\Archlab1.Task2.csproj" />
+      <ProjectReference Include="..\Archlab1.Task3\Archlab1.Task3.csproj" />
+      <ProjectReference Include="..\Archlab1.Task4\Archlab1.Task4.csproj" />
+      <ProjectReference Include="..\Archlab1.Task5\Archlab1.Task5.csproj" />
+    </ItemGroup>
+
+</Project>
