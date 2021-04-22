@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archlab2.Server", "Archlab2.Server\Archlab2.Server.csproj", "{0E49E57D-EDC6-47D7-88B0-8D20B0E8B2B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archlab2.Common", "Archlab2.Common\Archlab2.Common.csproj", "{7A8FCC11-2F3F-4754-86A2-09048BF882FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archlab2.GuiClient", "Archlab2.GuiClient\Archlab2.GuiClient.csproj", "{A605321E-63EA-4AC0-93BF-8B05CDC93D6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E49E57D-EDC6-47D7-88B0-8D20B0E8B2B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E49E57D-EDC6-47D7-88B0-8D20B0E8B2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E49E57D-EDC6-47D7-88B0-8D20B0E8B2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E49E57D-EDC6-47D7-88B0-8D20B0E8B2B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A8FCC11-2F3F-4754-86A2-09048BF882FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A8FCC11-2F3F-4754-86A2-09048BF882FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A8FCC11-2F3F-4754-86A2-09048BF882FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A8FCC11-2F3F-4754-86A2-09048BF882FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A605321E-63EA-4AC0-93BF-8B05CDC93D6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A605321E-63EA-4AC0-93BF-8B05CDC93D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A605321E-63EA-4AC0-93BF-8B05CDC93D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A605321E-63EA-4AC0-93BF-8B05CDC93D6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
