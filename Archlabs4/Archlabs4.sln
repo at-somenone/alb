@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archlabs4.Server", "Archlabs4.Server\Archlabs4.Server.csproj", "{A8DEA73E-9EFB-4F03-8678-269F0ABEDF0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nwc.XmlCs", "Nwc.XmlCs\Nwc.XmlCs.csproj", "{927D3DCD-3296-4373-862A-4B9B38839706}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archlabs4.Client", "Archlabs4.Client\Archlabs4.Client.csproj", "{3AD5CF96-589F-4087-BE41-EE5C527DA0F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8DEA73E-9EFB-4F03-8678-269F0ABEDF0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8DEA73E-9EFB-4F03-8678-269F0ABEDF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8DEA73E-9EFB-4F03-8678-269F0ABEDF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8DEA73E-9EFB-4F03-8678-269F0ABEDF0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{927D3DCD-3296-4373-862A-4B9B38839706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{927D3DCD-3296-4373-862A-4B9B38839706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{927D3DCD-3296-4373-862A-4B9B38839706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{927D3DCD-3296-4373-862A-4B9B38839706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD5CF96-589F-4087-BE41-EE5C527DA0F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD5CF96-589F-4087-BE41-EE5C527DA0F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD5CF96-589F-4087-BE41-EE5C527DA0F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD5CF96-589F-4087-BE41-EE5C527DA0F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
