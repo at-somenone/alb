@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archlab6.FlightService", "Archlab6.Service\Archlab6.FlightService.csproj", "{E08BDDF7-155B-428A-9A60-8BF3B20FEB24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archlab6.FlightServiceHost", "Archlab6.ServiceHost\Archlab6.FlightServiceHost.csproj", "{506FE569-D047-4B1A-9FC5-0FFFE64A192F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archlab6.Client", "Archlab6.Client\Archlab6.Client.csproj", "{324BDCFE-673B-448D-8102-97118F4D67C0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E08BDDF7-155B-428A-9A60-8BF3B20FEB24} = {E08BDDF7-155B-428A-9A60-8BF3B20FEB24}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E08BDDF7-155B-428A-9A60-8BF3B20FEB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E08BDDF7-155B-428A-9A60-8BF3B20FEB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E08BDDF7-155B-428A-9A60-8BF3B20FEB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E08BDDF7-155B-428A-9A60-8BF3B20FEB24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{506FE569-D047-4B1A-9FC5-0FFFE64A192F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{506FE569-D047-4B1A-9FC5-0FFFE64A192F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{506FE569-D047-4B1A-9FC5-0FFFE64A192F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{506FE569-D047-4B1A-9FC5-0FFFE64A192F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{324BDCFE-673B-448D-8102-97118F4D67C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324BDCFE-673B-448D-8102-97118F4D67C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324BDCFE-673B-448D-8102-97118F4D67C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324BDCFE-673B-448D-8102-97118F4D67C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACEAEE4B-FBE4-46F5-B02E-912D67B5ADAE}
+	EndGlobalSection
+EndGlobal

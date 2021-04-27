@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="dc6d7f83-e6cb-4fa2-8b1b-b95c41a76daf" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/Archlab6.FlightService/FlightService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Microsoft.ServiceModel.Samples.wsdl" MetadataType="Wsdl" ID="3fb549b7-5ddc-4066-8ad3-f87df516b8fb" SourceId="1" SourceUrl="http://localhost:8000/Archlab6.FlightService/FlightService/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="11137501-2d51-49b1-9135-9729cc38f73d" SourceId="1" SourceUrl="http://localhost:8000/Archlab6.FlightService/FlightService/mex" />
+    <MetadataFile FileName="Microsoft.ServiceModel.Samples.xsd" MetadataType="Schema" ID="0ebeb661-c428-4b0b-9170-ff0c76518141" SourceId="1" SourceUrl="http://localhost:8000/Archlab6.FlightService/FlightService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="2222a265-44d0-4650-afce-de177fed4609" SourceId="1" SourceUrl="http://localhost:8000/Archlab6.FlightService/FlightService/mex" />
+    <MetadataFile FileName="Archlab6.FlightService.xsd" MetadataType="Schema" ID="f60687cb-07d3-4e4e-b80b-30b053f16cc2" SourceId="1" SourceUrl="http://localhost:8000/Archlab6.FlightService/FlightService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
