@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchlabEightHundred.CalcClient", "ArchlabEightHundred.CalcClient\ArchlabEightHundred.CalcClient.csproj", "{237A8935-8335-4E5F-873E-14E81F504C84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchlabEightHundred.ComCalc", "ArchlabEightHundred.ComCalc\ArchlabEightHundred.ComCalc.csproj", "{0D0E1CC2-E486-4574-BA57-475B3B09C714}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{237A8935-8335-4E5F-873E-14E81F504C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237A8935-8335-4E5F-873E-14E81F504C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237A8935-8335-4E5F-873E-14E81F504C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237A8935-8335-4E5F-873E-14E81F504C84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D0E1CC2-E486-4574-BA57-475B3B09C714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0E1CC2-E486-4574-BA57-475B3B09C714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0E1CC2-E486-4574-BA57-475B3B09C714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0E1CC2-E486-4574-BA57-475B3B09C714}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B84E98C3-EED1-454A-9DA2-40ED2B0568BA}
+	EndGlobalSection
+EndGlobal

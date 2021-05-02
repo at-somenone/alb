@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <COMReference Include="{0d0e1cc2-e486-4574-ba57-475b3b09c714}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>0d0e1cc2-e486-4574-ba57-475b3b09c714</Guid>
+    </COMReference>
+    <ProjectReference Include="..\ArchlabEightHundred.ComCalc\ArchlabEightHundred.ComCalc.csproj" />
+  </ItemGroup>
+
+
+</Project>
