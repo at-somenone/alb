@@ -1,0 +1,78 @@
+﻿<Window x:Class="WpfTesty.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTesty"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="360" Width="240" ResizeMode="CanResize">
+    <Window.DataContext>
+        <local:CitiesViewModel />
+    </Window.DataContext>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <ListBox Grid.Row="0" Grid.Column="0" Width="50" Margin="3"
+                 ItemsSource="{Binding CitiesList}"
+                 SelectedItem="{Binding Selection1}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Index}" />
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <ListBox Grid.Row="0" Grid.Column="2" Width="50" Margin="3"
+                 ItemsSource="{Binding CitiesList}"
+                 SelectedItem="{Binding Selection2}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Index}" />
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Vertical">
+            <Button Margin="3" Content="Add"
+                    Command="{Binding AddCommand}" />
+            <TextBox Margin="3">
+                <TextBox.Text>
+                    <Binding Path="InputDistance"/>
+                </TextBox.Text>
+                <TextBox.Style>
+                    <Style TargetType="TextBox">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding SelectedEdge}"
+                                         Value="{x:Null}">
+                                <Setter Property="Visibility" Value="Hidden"/>
+                                <Setter Property="IsEnabled" Value="False"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBox.Style>
+
+            </TextBox>
+            <Button Margin="3" Content="&lt;&lt; Remove"
+                    Command="{Binding RemoveCommand}" />
+        </StackPanel>
+
+        <Button Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="3" Content="Calculate"
+                Command="{Binding CalculateCommand}" />
+        <TextBox Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Margin="3"
+                 TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"
+                 IsReadOnly="True" IsReadOnlyCaretVisible="False"
+                 Text="{Binding ComputedResult}"/>
+    </Grid>
+
+</Window>
